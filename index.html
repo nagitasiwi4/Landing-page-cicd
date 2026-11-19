@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page CI/CD - Nagita Siwi Nurhayati</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+    body { background: #0f172a; color: #f8fafc; line-height: 1.6; }
+    header { padding: 20px 10%; display: flex; justify-content: space-between; align-items: center; background: #1e293b; }
+    .hero { text-align: center; padding: 80px 10%; max-width: 800px; margin: auto; }
+    .badge { display: inline-block; background: #38bdf8; color: #0f172a; padding: 4px 12px; border-radius: 20px; font-weight: bold; font-size: 0.85rem; margin-bottom: 16px; }
+    h1 { font-size: 2.5rem; margin-bottom: 16px; }
+    p { color: #94a3b8; margin-bottom: 24px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; padding: 20px 10% 60px; max-width: 1000px; margin: auto; }
+    .card { background: #1e293b; padding: 24px; border-radius: 12px; border: 1px solid #334155; }
+    .card h3 { color: #38bdf8; margin-bottom: 8px; }
+    footer { text-align: center; padding: 20px; border-top: 1px solid #1e293b; color: #64748b; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>Nagita.dev</strong>
+    <span>Statistika Terapan & Komputasi</span>
+  </header>
+
+  <section class="hero">
+    <span class="badge">CI/CD Pipeline Aktif - Versi 1.0</span>
+    <h1>Automasi Deployment Landing Page</h1>
+    <p>Halaman ini di-deploy secara otomatis menggunakan GitHub Actions ke GitHub Pages setiap kali terjadi perubahan kode pada branch main.</p>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h3>1. Source Control</h3>
+      <p>Kode sumber dikelola terpusat menggunakan repository GitHub.</p>
+    </div>
+    <div class="card">
+      <h3>2. Continuous Integration</h3>
+      <p>Workflow otomatis memvalidasi dan mengemas artefak setiap kali commit dilakukan.</p>
+    </div>
+    <div class="card">
+      <h3>3. Continuous Deployment</h3>
+      <p>Perubahan langsung tayang ke halaman web publik tanpa unggah manual.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Nagita Siwi Nurhayati — Tugas Praktikum CI/CD
+  </footer>
+</body>
+</html>
